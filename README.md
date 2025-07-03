@@ -75,9 +75,58 @@ docker-compose up -d
 ---
 
 | Grafana     | http://<Your_EC2_IP>:3000  |
+
 🛡 **Grafana Login:** `admin / admin`
 
+🛡 **Grafana Login Update Password:** `<Your Password> / <Your Password>`
+
 ![Output Screenshot](Grafana.png)
+
+# 📊 Add Prometheus as a Data Source in Grafana
+ 
+Follow these steps to add Prometheus as a data source in Grafana:
+ 
+---
+ 
+## 1. Open Data Sources
+ 
+- Go to the left sidebar menu in Grafana.
+- Click on **⚙️ Connections** > **Data Sources**.
+ 
+---
+ 
+## 2. Add Data Source
+ 
+- Search **Prometheus**.
+- Click **Prometheus** from the list.
+ 
+---
+ 
+## 3. Configure Prometheus Settings
+ 
+- **Name:** `Prometheus`
+- **URL:**  
+  ```
+  http://<Your_EC2_IP>:9090/
+  ```
+- Scroll Down
+- **other:** HTTP Method
+  `Select GET`
+ 
+---
+ 
+## 4. Save & Test
+ 
+- Click **Save & Test** to verify the connection.
+
+# 📊 Import Dashboard
+
+Follow these steps Import Dashboard
+
+- On the left side menu, **click Dashboards → New → Import**
+- Paste the GitHub URL to the **.json** file
+- OR download the file and click "**Upload .json** file"
+- Click **Load**
 
 ---
 
