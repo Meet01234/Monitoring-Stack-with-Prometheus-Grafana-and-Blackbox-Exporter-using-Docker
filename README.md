@@ -86,7 +86,7 @@ docker-compose up -d
 
 | Prometheus  | http://<EC2-IP>:9090       |
 
-![Output Screenshot](Prometheus.png)
+![Output Screenshot](Prom.png)
 
 ---
 
