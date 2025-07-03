@@ -1,6 +1,8 @@
 
 # 🚀 Monitoring Project Setup (Prometheus + Grafana + Blackbox Exporter via Docker)
 
+![Screenshot](Monitoring.png)
+
 This project sets up a complete monitoring stack using Docker: Prometheus for metrics, Grafana for visualization, and Blackbox Exporter for endpoint probing.
 
 ---
