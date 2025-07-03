@@ -67,7 +67,7 @@ docker-compose up -d
 
 | Service     | URL                        |
 |-------------|----------------------------|
-| Blackbox    | http://<EC2-IP>:9115       |
+| Blackbox    | http://<Your_EC2_IP>:9115  |
 
 ![Output Screenshot](Black.png)
 
@@ -75,7 +75,7 @@ docker-compose up -d
 
 ---
 
-| Grafana     | http://<EC2-IP>:3000       |
+| Grafana     | http://<Your_EC2_IP>:3000  |
 🛡 **Grafana Login:** `admin / admin`
 
 ![Output Screenshot](Grafana.png)
@@ -84,7 +84,7 @@ docker-compose up -d
 
 ---
 
-| Prometheus  | http://<EC2-IP>:9090       |
+| Prometheus  | http://<Your_EC2_IP>:9090  |
 
 ![Output Screenshot](Prom.png)
 
