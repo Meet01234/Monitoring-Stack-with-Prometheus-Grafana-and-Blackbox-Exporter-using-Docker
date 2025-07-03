@@ -42,7 +42,6 @@ chmod +x -R blackbox_exporter-0.18.0.linux-amd64/
 cd blackbox_exporter-0.18.0.linux-amd64/
 ./blackbox_exporter --config.file=blackbox.yml &> output.log &
 ```
-🔁 *Not required if `docker-compose.yml` already runs the blackbox container.*
 
 ## ✅ Step 4: Check Port Usage (optional debugging)
 ```bash
