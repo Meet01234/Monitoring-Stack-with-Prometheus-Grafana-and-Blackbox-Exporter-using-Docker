@@ -1,5 +1,5 @@
 
-# 🚀 Monitoring Project Setup (Prometheus + Grafana + Blackbox Exporter via Docker)
+# 🚀 Monitoring Stack with Prometheus, Grafana, and Blackbox Exporter using Docker
 
 ![Screenshot](Monitoring.png)
 
