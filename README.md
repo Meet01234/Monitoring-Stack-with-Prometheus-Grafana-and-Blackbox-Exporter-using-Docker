@@ -50,7 +50,7 @@ sudo netstat -tunlp
 
 ## ✅ Step 5: Edit Prometheus Configuration
 ```bash
-cd /home/ubuntu/monitor/
+cd /home/ubuntu/<Your Repo>/
 nano prometheus.yml
 # 🔧 Update with your EC2 instance IP
 ```
