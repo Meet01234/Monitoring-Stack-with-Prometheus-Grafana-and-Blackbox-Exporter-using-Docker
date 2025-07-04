@@ -10,12 +10,15 @@ This project sets up a complete monitoring stack using Docker: Prometheus for me
 ## 📦 Final Project Structure
 
 ```
-monitor/
-├── docker-compose.yml
-├── prometheus.yml
-├── blackbox.yml
+blackbox_monitoring_project/
 ├── blackbox_exporter-0.18.0.linux-amd64/
-└── output.log
+├── clean.sh
+├── dashboard.json
+├── docker-compose.yml
+├── grafana.ini
+├── prometheus.yml
+├── LICENSE
+└── README.md
 ```
 
 ---
